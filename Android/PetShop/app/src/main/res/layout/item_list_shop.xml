@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:checkable="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:longClickable="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/produto_image"
+                android:transitionName="img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/osso"
+                android:scaleType="fitCenter"
+                tools:ignore="UnusedAttribute" />
+
+            <ImageView
+                android:id="@+id/shadow_bottom"
+                android:src="@drawable/bottom_shadow"
+                android:layout_alignBottom="@id/produto_image"
+                android:layout_width="match_parent"
+                android:layout_height="80dp" />
+
+            <FrameLayout
+                android:id="@+id/layoutDate"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/produto_image"
+                android:background="@drawable/round_white"
+                android:padding="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-50dp">
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/produto_preco"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="2000"
+                    android:textColor="#262626"
+                    android:textColorHint="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#262626"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:text="Produto"
+                android:textSize="17sp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/produto_image"
+                android:id="@+id/produto_nome" />
+
+
+            <Spinner
+                android:id="@+id/produto_qtd"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_below="@id/produto_nome"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="16dp">
+
+            </Spinner>
+
+
+            <CheckBox
+                android:id="@+id/produto_selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Selecionar Produto"
+                android:layout_below="@id/produto_qtd"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="12sp"
+                android:textColor="#262626" />
+
+            <TextView
+                android:id="@+id/produto_details"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/produto_selected"
+                android:text="Exibir detalhes"
+                android:textColor="@color/colorPrimary"
+                android:drawableRight="@drawable/ic_next"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true">
+
+            </TextView>
+
+
+        </RelativeLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>

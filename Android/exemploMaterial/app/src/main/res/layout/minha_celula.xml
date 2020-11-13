@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="393dp"
+        android:layout_height="142dp"
+        android:layout_marginEnd="8dp"
+        app:cardBackgroundColor="#80DEEA"
+        app:cardCornerRadius="24dp"
+        app:cardElevation="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/felp_icon" />
+
+        <TextView
+            android:id="@+id/texto1"
+            android:layout_width="160dp"
+            android:layout_height="71dp"
+            android:text="TextView"
+            android:textColor="#1A237E"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/texto2"
+            android:layout_width="129dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:text="TextView"
+            android:textColor="#1A237E"
+            android:textSize="18sp" />
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

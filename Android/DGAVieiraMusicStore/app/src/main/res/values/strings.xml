@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">DGAVieiraMusicStore</string>
+
+    <!-- Activity Main Strings -->
+    <string name="act_main_image_logo">D G A Vieira Music Store</string>
+    <string name="act_main_image_name">A Blue guitar</string>
+    <string name="act_main_btn_signin">Sign In</string>
+    <string name="act_main_btn_register">New User? Register Here</string>
+
+    <!-- Activity Login Strings -->
+    <string name="act_login_edt_name">Name</string>
+    <string name="act_login_edt_password">Password</string>
+    <string name="act_login_btn_signin">Sign In</string>
+</resources>

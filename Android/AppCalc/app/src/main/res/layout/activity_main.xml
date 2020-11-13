@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060606"
+    tools:context=".MainActivity">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridlayout"
+        android:layout_width="359dp"
+        android:layout_height="476dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:background="#0F0F0F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752">
+
+        <Button
+            android:id="@+id/botao4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="4"
+            app:layout_column="0"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botao1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="1"
+            app:layout_column="0"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botao0"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="0"
+            app:layout_column="0"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/botao5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="5"
+            app:layout_column="1"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botao6"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="6"
+            app:layout_column="2"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botaoSubtrai"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="-"
+            app:layout_column="3"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botao2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="2"
+            app:layout_column="1"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botao3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="3"
+            app:layout_column="2"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botaoSoma"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="+"
+            app:layout_column="3"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botaoPonto"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="."
+            app:layout_column="2"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/botaoIgual"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#66BEDF"
+            android:onClick="clicaBotao"
+            android:text="="
+            app:layout_column="3"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/botaoMultiplica"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="X"
+            app:layout_column="3"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botao9"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="9"
+            app:layout_column="2"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botao8"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="8"
+            app:layout_column="1"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botaoLimpar"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#66BEDF"
+            android:onClick="clicaBotao"
+            android:text="C"
+            app:layout_column="0"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/botaoDivide"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="/"
+            app:layout_column="3"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/botao7"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="7"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botaoMod"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="mod"
+            app:layout_column="2"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/botaoExp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="exp"
+            app:layout_column="1"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/botaoPi"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="pi"
+            app:layout_column="4"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/BotaoNeper"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="e"
+            app:layout_column="5"
+            app:layout_row="0" />
+
+        <Button
+            android:id="@+id/botaoSinal"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:onClick="clicaBotao"
+            android:text="+/-"
+            app:layout_column="1"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/botaoInverso"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="1/n"
+            app:layout_column="4"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botaoModulo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="|n|"
+            app:layout_column="5"
+            app:layout_row="1" />
+
+        <Button
+            android:id="@+id/botaoFatorial"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="n!"
+            app:layout_column="4"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botaoQuadrado"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAC37"
+            android:onClick="clicaBotao"
+            android:text="n²"
+            app:layout_column="5"
+            app:layout_row="2" />
+
+        <Button
+            android:id="@+id/botaoRaiz"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="√"
+            app:layout_column="4"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botaoPotencia"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#ffac37"
+            android:onClick="clicaBotao"
+            android:text="x^y"
+            app:layout_column="5"
+            app:layout_row="3" />
+
+        <Button
+            android:id="@+id/botaoPotDez"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#ffac37"
+            android:onClick="clicaBotao"
+            android:text="10^x"
+            app:layout_column="4"
+            app:layout_row="4" />
+
+        <Button
+            android:id="@+id/botaoLn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFAc37"
+            android:onClick="clicaBotao"
+            android:text="ln"
+            app:layout_column="5"
+            app:layout_row="4" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/campoResultado"
+        android:layout_width="356dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="10dp"
+        android:text="0"
+        android:textColor="#FEFCFC"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridlayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.618"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

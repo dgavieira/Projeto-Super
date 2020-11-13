@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_fav"
+        android:title="Favoritos"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_home"
+        android:title="Title"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/item_contatos"
+        android:title="Contato"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/item_home"
+        android:title="Title"
+        app:showAsAction="ifRoom"/>
+</menu>

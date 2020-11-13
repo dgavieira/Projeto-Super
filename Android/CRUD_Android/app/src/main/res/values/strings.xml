@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Lista de Contatos</string>
+
+    <!-- strings da tela de adicionar contato -->
+    <string name="activity_adiciona_contato_name">Adiciona Contato</string>
+    <string name="activity_adiciona_contato_txt_nome">Nome</string>
+    <string name="activity_adiciona_contato_txt_empresa">Empresa</string>
+    <string name="activity_adiciona_contato_txt_telefone">Telefone</string>
+    <string name="activity_adiciona_contato_txt_email">E-mail</string>
+    <string name="activity_adiciona_contato_btn_cadastrar">Cadastrar</string>
+    <string name="activity_adiciona_contato_btn_cancelar">Cancelar</string>
+
+    <!-- máscaras da tela de adiconar contato -->
+    <string name="activity_adiciona_contato_edt_nome">Nome</string>
+    <string name="activity_adiciona_contato_edt_empresa">Empresa</string>
+    <string name="activity_adiciona_contato_edt_telefone">(XX) XXX XXX XXX</string>
+    <string name="activity_adiciona_contato_edt_email">mail@mail.com</string>
+
+    <!-- strings da tela de atualizar contato -->
+    <string name="activity_atualiza_contato_name">Atualiza Contato</string>
+    <string name="activity_atualiza_contato_txt_nome">Nome</string>
+    <string name="activity_atualiza_contato_txt_empresa">Empresa</string>
+    <string name="activity_atualiza_contato_txt_telefone">Telefone</string>
+    <string name="activity_atualiza_contato_txt_email">E-mail</string>
+    <string name="activity_atualiza_contato_btn_cadastrar">Atualizar</string>
+    <string name="activity_atualiza_contato_btn_cancelar">Cancelar</string>
+</resources>
